@@ -13,8 +13,10 @@
   border: 1px solid #ccc;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
   margin-top: 10px;
-  margin-bottom: 15px;
-  padding: 20px;
+  margin-bottom: 10px;
+  padding: 15px;
+  opacity: 0.7;
+  text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -23,8 +25,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  background: image_url('wheat.png');
   font-family: 'Caveat', cursive;
+  background: url('screaming.jpeg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .title {
@@ -33,4 +39,18 @@ body {
    font-size: 60px;
    padding-top: 40px;
    text-align: left;
+  }
+
+  .links {
+    font-family: 'Caveat', cursive;
+    font-size: 60px;
+    padding-top: 40px;
+    text-align: right;
+  }
+
+  .new {
+    font-family: 'Caveat', cursive;
+    color: white;
+    margin-left: 80px;
+    margin-right: 80px;
   }

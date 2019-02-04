@@ -1,0 +1,9 @@
+<div class="new">
+<h1>What you want to say?</h1>
+<%= simple_form_for @statements do |f| %>
+  <h4><%= f.input :saying, label: "Say something" %></h4>
+  <h4><%= f.input :author, label: "Leave a name you're comfortable to be called in this community" %></h4>
+  <br />
+  <%= f.submit 'Submit', class: 'btn btn-danger' %>
+<% end %>
+</div>
