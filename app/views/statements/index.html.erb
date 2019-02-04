@@ -1,1 +1,8 @@
-<h1><%= @statements.inspect %></h1>
+<% @statements.each do |statement| %>
+  <div>
+   <h1><%= statement.saying %></h1><br />
+   <i><%= statement.author %></i><br />
+  </div>
+
+  <hr />
+<% end %>
